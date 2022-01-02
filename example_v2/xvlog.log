@@ -1,0 +1,9 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/imocanu/Public/PycharmProjects/axi4-cores/uvm_4_dv/example_v2/interface/des_if.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/imocanu/Public/PycharmProjects/axi4-cores/uvm_4_dv/example_v2/pattern_list.svh" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/imocanu/Public/PycharmProjects/axi4-cores/uvm_4_dv/example_v2/rtl/det_1011.sv" into library work
+WARNING: [VRFC 10-2282] `include directive not isolated on its own line [/home/imocanu/Public/PycharmProjects/axi4-cores/uvm_4_dv/example_v2/rtl/det_1011.sv:1]
+INFO: [VRFC 10-311] analyzing module det_1011
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/imocanu/Public/PycharmProjects/axi4-cores/uvm_4_dv/example_v2/tests/pattern_base_test.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/imocanu/Public/PycharmProjects/axi4-cores/uvm_4_dv/example_v2/tests/test_1011.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/imocanu/Public/PycharmProjects/axi4-cores/uvm_4_dv/example_v2/tb/tb.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb

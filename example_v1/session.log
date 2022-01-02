@@ -1,0 +1,143 @@
+#-----------------------------------------------------------
+# xsim v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:07 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sun Jan  2 21:56:48 2022
+# Process ID: 66776
+# Current directory: /home/imocanu/Public/PycharmProjects/axi4-cores/uvm_4_dv/example_v1
+# Command line: xsim -log session.log -mode tcl -source {xsim.dir/top_sim/xsim_script.tcl}
+# Log file: /home/imocanu/Public/PycharmProjects/axi4-cores/uvm_4_dv/example_v1/session.log
+# Journal file: /home/imocanu/Public/PycharmProjects/axi4-cores/uvm_4_dv/example_v1/xsim.jou
+#-----------------------------------------------------------
+source xsim.dir/top_sim/xsim_script.tcl
+# xsim {top_sim} -testplusarg UVM_TESTNAME=base_test -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+UVM_INFO /proj/xbuilds/SWIP/2021.1_0402_2220/installs/lin64/Vivado/2021.1/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18601) @ 0: reporter [UVM/RELNOTES] 
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+
+  You are using a version of the UVM library that has been compiled
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+----------------------------------------------------------------
+(C) 2013-2014 NVIDIA Corporation
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2007-2014 Mentor Graphics Corporation
+
+
+----------------------------------------------------------------
+
+UVM_INFO /proj/xbuilds/SWIP/2021.1_0402_2220/installs/lin64/Vivado/2021.1/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18648) @ 0: reporter [NO_DPI_TSTNAME] UVM_NO_DPI defined--getting UVM_TESTNAME directly, without DPI
+UVM_INFO @ 0: reporter [RNTST] Running test base_test...
+UVM_INFO tests/base_test.svh(24) @ 0: uvm_test_top [######] TEST_BUILD_PHASE
+UVM_INFO scoreboard.svh(22) @ 0: uvm_test_top.m_env.scoreboard [######] SB_NEWWWWW
+UVM_INFO my_env.svh(18) @ 0: uvm_test_top.m_env [######] ENV_BUILD_PHASE
+UVM_INFO my_agent.sv(16) @ 0: uvm_test_top.m_env.m_agent [######] AGENT_BUILD_PHASE
+UVM_INFO my_driver.svh(8) @ 0: uvm_test_top.m_env.m_agent.m_driv [######] DRIVER_NEW
+UVM_INFO command_monitor.svh(17) @ 0: uvm_test_top.m_env.m_agent.c_monitor [######] MONITOR_BUILD_PHASE
+UVM_INFO result_monitor.svh(16) @ 0: uvm_test_top.m_env.m_agent.r_monitor [######] RESULT_MON_BUILD_PHASE
+UVM_INFO scoreboard.svh(28) @ 0: uvm_test_top.m_env.scoreboard [######] SB_BUILD_PHASE
+UVM_INFO my_agent.sv(25) @ 0: uvm_test_top.m_env.m_agent [######] AGENT_CONNECT_PHASE
+UVM_INFO my_env.svh(29) @ 0: uvm_test_top.m_env [######] ENV_CONNECT_PHASE
+UVM_INFO /proj/xbuilds/SWIP/2021.1_0402_2220/installs/lin64/Vivado/2021.1/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(20867) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+UVM_INFO command_monitor.svh(28) @ 0: uvm_test_top.m_env.m_agent.c_monitor [######] MONITOR_RUN_PHASE
+UVM_INFO transactions/base_transaction.svh(26) @ 0: reporter@@req [######] ITEM_NEW
+UVM_INFO command_monitor.svh(37) @ 20000: uvm_test_top.m_env.m_agent.c_monitor [######] MONITOR_WRITE
+--------------------------------------------------------------------------------------------
+Name                           Type              Size  Value                                
+--------------------------------------------------------------------------------------------
+req                            base_transaction  -     @714                                 
+  begin_time                   time              64    0                                    
+  depth                        int               32    'd2                                  
+  parent sequence (name)       string            3     seq                                  
+  parent sequence (full name)  string            37    uvm_test_top.m_env.m_agent.m_seqr.seq
+  sequencer                    string            33    uvm_test_top.m_env.m_agent.m_seqr    
+--------------------------------------------------------------------------------------------
+UVM_INFO my_driver.svh(42) @ 50000: uvm_test_top.m_env.m_agent.m_driv [######] DRIVER_RUN_FOREVER_
+UVM_INFO transactions/base_transaction.svh(26) @ 50000: reporter@@req [######] ITEM_NEW
+UVM_INFO result_monitor.svh(37) @ 51000: uvm_test_top.m_env.m_agent.r_monitor [######] RESULT_MON_RUN_PHASE
+UVM_INFO command_monitor.svh(37) @ 60000: uvm_test_top.m_env.m_agent.c_monitor [######] MONITOR_WRITE
+--------------------------------------------------------------------------------------------
+Name                           Type              Size  Value                                
+--------------------------------------------------------------------------------------------
+req                            base_transaction  -     @750                                 
+  begin_time                   time              64    50000                                
+  depth                        int               32    'd2                                  
+  parent sequence (name)       string            3     seq                                  
+  parent sequence (full name)  string            37    uvm_test_top.m_env.m_agent.m_seqr.seq
+  sequencer                    string            33    uvm_test_top.m_env.m_agent.m_seqr    
+--------------------------------------------------------------------------------------------
+UVM_INFO my_driver.svh(42) @ 90000: uvm_test_top.m_env.m_agent.m_driv [######] DRIVER_RUN_FOREVER_
+UVM_INFO transactions/base_transaction.svh(26) @ 90000: reporter@@req [######] ITEM_NEW
+UVM_INFO result_monitor.svh(37) @ 91000: uvm_test_top.m_env.m_agent.r_monitor [######] RESULT_MON_RUN_PHASE
+UVM_INFO command_monitor.svh(37) @ 100000: uvm_test_top.m_env.m_agent.c_monitor [######] MONITOR_WRITE
+--------------------------------------------------------------------------------------------
+Name                           Type              Size  Value                                
+--------------------------------------------------------------------------------------------
+req                            base_transaction  -     @762                                 
+  begin_time                   time              64    90000                                
+  depth                        int               32    'd2                                  
+  parent sequence (name)       string            3     seq                                  
+  parent sequence (full name)  string            37    uvm_test_top.m_env.m_agent.m_seqr.seq
+  sequencer                    string            33    uvm_test_top.m_env.m_agent.m_seqr    
+--------------------------------------------------------------------------------------------
+UVM_INFO my_driver.svh(42) @ 130000: uvm_test_top.m_env.m_agent.m_driv [######] DRIVER_RUN_FOREVER_
+UVM_INFO transactions/base_transaction.svh(26) @ 130000: reporter@@req [######] ITEM_NEW
+UVM_INFO result_monitor.svh(37) @ 131000: uvm_test_top.m_env.m_agent.r_monitor [######] RESULT_MON_RUN_PHASE
+UVM_INFO command_monitor.svh(37) @ 140000: uvm_test_top.m_env.m_agent.c_monitor [######] MONITOR_WRITE
+--------------------------------------------------------------------------------------------
+Name                           Type              Size  Value                                
+--------------------------------------------------------------------------------------------
+req                            base_transaction  -     @774                                 
+  begin_time                   time              64    130000                               
+  depth                        int               32    'd2                                  
+  parent sequence (name)       string            3     seq                                  
+  parent sequence (full name)  string            37    uvm_test_top.m_env.m_agent.m_seqr.seq
+  sequencer                    string            33    uvm_test_top.m_env.m_agent.m_seqr    
+--------------------------------------------------------------------------------------------
+UVM_INFO my_driver.svh(42) @ 170000: uvm_test_top.m_env.m_agent.m_driv [######] DRIVER_RUN_FOREVER_
+UVM_INFO transactions/base_transaction.svh(26) @ 170000: reporter@@req [######] ITEM_NEW
+UVM_INFO result_monitor.svh(37) @ 171000: uvm_test_top.m_env.m_agent.r_monitor [######] RESULT_MON_RUN_PHASE
+UVM_INFO command_monitor.svh(37) @ 180000: uvm_test_top.m_env.m_agent.c_monitor [######] MONITOR_WRITE
+--------------------------------------------------------------------------------------------
+Name                           Type              Size  Value                                
+--------------------------------------------------------------------------------------------
+req                            base_transaction  -     @786                                 
+  begin_time                   time              64    170000                               
+  depth                        int               32    'd2                                  
+  parent sequence (name)       string            3     seq                                  
+  parent sequence (full name)  string            37    uvm_test_top.m_env.m_agent.m_seqr.seq
+  sequencer                    string            33    uvm_test_top.m_env.m_agent.m_seqr    
+--------------------------------------------------------------------------------------------
+UVM_INFO my_driver.svh(42) @ 210000: uvm_test_top.m_env.m_agent.m_driv [######] DRIVER_RUN_FOREVER_
+UVM_INFO tests/base_test.svh(37) @ 210000: uvm_test_top [######] TEST_RUN_PHASE
+UVM_INFO /proj/xbuilds/SWIP/2021.1_0402_2220/installs/lin64/Vivado/2021.1/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(19968) @ 210000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO scoreboard.svh(90) @ 210000: uvm_test_top.m_env.scoreboard [######] SB_REPORT_PHASE_finished
+UVM_INFO scoreboard.svh(91) @ 210000: uvm_test_top.m_env.scoreboard [######] SCOREBOARD finished
+Good:   4, bad:   0, total:   4
+UVM_INFO scoreboard.svh(92) @ 210000: uvm_test_top.m_env.scoreboard [######] SB_REPORT_PHASE_finished
+UVM_INFO /proj/xbuilds/SWIP/2021.1_0402_2220/installs/lin64/Vivado/2021.1/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(13673) @ 210000: reporter [UVM/REPORT/SERVER] [UVM/RELNOTES]     1
+[UVM/COMP/NAMECHECK]     1
+[TEST_DONE]     1
+[RNTST]     1
+[NO_DPI_TSTNAME]     1
+[######]    34
+** Report counts by id
+UVM_FATAL :    0
+UVM_ERROR :    0
+UVM_WARNING :    0
+UVM_INFO :   39
+** Report counts by severity
+
+--- UVM Report Summary ---
+
+
+$finish called at time : 210 ns : File "/home/imocanu/Public/Vivado/Vivado/2021.1/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv" Line 18699
+exit
+INFO: [Common 17-206] Exiting xsim at Sun Jan  2 21:56:58 2022...

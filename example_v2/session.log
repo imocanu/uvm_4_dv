@@ -1,0 +1,582 @@
+#-----------------------------------------------------------
+# xsim v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:07 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sun Jan  2 15:26:58 2022
+# Process ID: 28993
+# Current directory: /home/imocanu/Public/PycharmProjects/axi4-cores/uvm_4_dv/example_v2
+# Command line: xsim -log session.log -mode tcl -source {xsim.dir/tb_sim/xsim_script.tcl}
+# Log file: /home/imocanu/Public/PycharmProjects/axi4-cores/uvm_4_dv/example_v2/session.log
+# Journal file: /home/imocanu/Public/PycharmProjects/axi4-cores/uvm_4_dv/example_v2/xsim.jou
+#-----------------------------------------------------------
+source xsim.dir/tb_sim/xsim_script.tcl
+# xsim {tb_sim} -testplusarg UVM_TESTNAME=test_1011 -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+UVM_INFO /proj/xbuilds/SWIP/2021.1_0402_2220/installs/lin64/Vivado/2021.1/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18601) @ 0: reporter [UVM/RELNOTES] 
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+
+  You are using a version of the UVM library that has been compiled
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+----------------------------------------------------------------
+(C) 2013-2014 NVIDIA Corporation
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2007-2014 Mentor Graphics Corporation
+
+
+----------------------------------------------------------------
+
+UVM_WARNING @ 0: reporter [TPRGED] Type name 'pattern_driver' already registered with factory. No string-based lookup support for multiple types with the same type name.
+UVM_WARNING @ 0: reporter [TPRGED] Type name 'pattern_monitor' already registered with factory. No string-based lookup support for multiple types with the same type name.
+UVM_WARNING @ 0: reporter [TPRGED] Type name 'pattern_agent' already registered with factory. No string-based lookup support for multiple types with the same type name.
+UVM_WARNING @ 0: reporter [TPRGED] Type name 'pattern_scoreboard' already registered with factory. No string-based lookup support for multiple types with the same type name.
+UVM_WARNING @ 0: reporter [TPRGED] Type name 'pattern_env' already registered with factory. No string-based lookup support for multiple types with the same type name.
+UVM_WARNING @ 0: reporter [TPRGED] Type name 'pattern_seq_item' already registered with factory. No string-based lookup support for multiple types with the same type name.
+UVM_WARNING @ 0: reporter [TPRGED] Type name 'pattern_sequence' already registered with factory. No string-based lookup support for multiple types with the same type name.
+UVM_INFO /proj/xbuilds/SWIP/2021.1_0402_2220/installs/lin64/Vivado/2021.1/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(18648) @ 0: reporter [NO_DPI_TSTNAME] UVM_NO_DPI defined--getting UVM_TESTNAME directly, without DPI
+UVM_INFO @ 0: reporter [RNTST] Running test test_1011...
+UVM_INFO /proj/xbuilds/SWIP/2021.1_0402_2220/installs/lin64/Vivado/2021.1/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(20867) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 90000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b0
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 110000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b0
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 130000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b0
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 150000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b0
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 170000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b0
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 190000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b0
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 210000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b0
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 230000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b0
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 250000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b0
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 270000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b0
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 290000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b0
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 310000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b0
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 330000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b0
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 350000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 370000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b11
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 390000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 410000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 430000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1110
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 450000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 470000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1011
+UVM_INFO sb/pattern_scoreboard.sv(48) @ 470000: uvm_test_top.e0.sb0 [SCBD] Pattern found to match, next out should be 1
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 490000: uvm_test_top.e0.sb0 [SCBD] in=0 out=1 ref=0b1011 act=0b110
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 510000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1100
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 530000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1001
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 550000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b11
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 570000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 590000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 610000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 630000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 650000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 670000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 690000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 710000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1110
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 730000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 750000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1011
+UVM_INFO sb/pattern_scoreboard.sv(48) @ 750000: uvm_test_top.e0.sb0 [SCBD] Pattern found to match, next out should be 1
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 770000: uvm_test_top.e0.sb0 [SCBD] in=1 out=1 ref=0b1011 act=0b111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 790000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 810000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 830000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 850000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 870000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 890000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 910000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 930000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 950000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 970000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 990000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 1010000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 1030000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 1050000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 1070000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 1090000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 1110000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 1130000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 1150000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 1170000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 1190000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 1210000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 1230000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 1250000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 1270000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1110
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 1290000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 1310000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1010
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 1330000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 1350000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1010
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 1370000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 1390000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1011
+UVM_INFO sb/pattern_scoreboard.sv(48) @ 1390000: uvm_test_top.e0.sb0 [SCBD] Pattern found to match, next out should be 1
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 1410000: uvm_test_top.e0.sb0 [SCBD] in=1 out=1 ref=0b1011 act=0b111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 1430000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 1450000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 1470000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1110
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 1490000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 1510000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1011
+UVM_INFO sb/pattern_scoreboard.sv(48) @ 1510000: uvm_test_top.e0.sb0 [SCBD] Pattern found to match, next out should be 1
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 1530000: uvm_test_top.e0.sb0 [SCBD] in=1 out=1 ref=0b1011 act=0b111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 1550000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 1570000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 1590000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 1610000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 1630000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 1650000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 1670000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 1690000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 1710000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 1730000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 1750000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1110
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 1770000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 1790000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1011
+UVM_INFO sb/pattern_scoreboard.sv(48) @ 1790000: uvm_test_top.e0.sb0 [SCBD] Pattern found to match, next out should be 1
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 1810000: uvm_test_top.e0.sb0 [SCBD] in=1 out=1 ref=0b1011 act=0b111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 1830000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 1850000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 1870000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 1890000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1110
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 1910000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 1930000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1011
+UVM_INFO sb/pattern_scoreboard.sv(48) @ 1930000: uvm_test_top.e0.sb0 [SCBD] Pattern found to match, next out should be 1
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 1950000: uvm_test_top.e0.sb0 [SCBD] in=1 out=1 ref=0b1011 act=0b111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 1970000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 1990000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 2010000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 2030000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 2050000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 2070000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 2090000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 2110000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 2130000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 2150000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 2170000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 2190000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 2210000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 2230000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 2250000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1110
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 2270000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1100
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 2290000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1000
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 2310000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b0
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 2330000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 2350000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b10
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 2370000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 2390000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1011
+UVM_INFO sb/pattern_scoreboard.sv(48) @ 2390000: uvm_test_top.e0.sb0 [SCBD] Pattern found to match, next out should be 1
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 2410000: uvm_test_top.e0.sb0 [SCBD] in=0 out=1 ref=0b1011 act=0b110
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 2430000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 2450000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1011
+UVM_INFO sb/pattern_scoreboard.sv(48) @ 2450000: uvm_test_top.e0.sb0 [SCBD] Pattern found to match, next out should be 1
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 2470000: uvm_test_top.e0.sb0 [SCBD] in=1 out=1 ref=0b1011 act=0b111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 2490000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 2510000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 2530000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 2550000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1110
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 2570000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 2590000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1011
+UVM_INFO sb/pattern_scoreboard.sv(48) @ 2590000: uvm_test_top.e0.sb0 [SCBD] Pattern found to match, next out should be 1
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 2610000: uvm_test_top.e0.sb0 [SCBD] in=1 out=1 ref=0b1011 act=0b111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 2630000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 2650000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 2670000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 2690000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 2710000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1110
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 2730000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 2750000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1011
+UVM_INFO sb/pattern_scoreboard.sv(48) @ 2750000: uvm_test_top.e0.sb0 [SCBD] Pattern found to match, next out should be 1
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 2770000: uvm_test_top.e0.sb0 [SCBD] in=1 out=1 ref=0b1011 act=0b111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 2790000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 2810000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 2830000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 2850000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1110
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 2870000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 2890000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1010
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 2910000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 2930000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1010
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 2950000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 2970000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1011
+UVM_INFO sb/pattern_scoreboard.sv(48) @ 2970000: uvm_test_top.e0.sb0 [SCBD] Pattern found to match, next out should be 1
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 2990000: uvm_test_top.e0.sb0 [SCBD] in=0 out=1 ref=0b1011 act=0b110
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 3010000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 3030000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1011
+UVM_INFO sb/pattern_scoreboard.sv(48) @ 3030000: uvm_test_top.e0.sb0 [SCBD] Pattern found to match, next out should be 1
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 3050000: uvm_test_top.e0.sb0 [SCBD] in=1 out=1 ref=0b1011 act=0b111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 3070000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 3090000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 3110000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 3130000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 3150000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 3170000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 3190000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 3210000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1110
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 3230000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 3250000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1011
+UVM_INFO sb/pattern_scoreboard.sv(48) @ 3250000: uvm_test_top.e0.sb0 [SCBD] Pattern found to match, next out should be 1
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 3270000: uvm_test_top.e0.sb0 [SCBD] in=1 out=1 ref=0b1011 act=0b111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 3290000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 3310000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1110
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 3330000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 3350000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1011
+UVM_INFO sb/pattern_scoreboard.sv(48) @ 3350000: uvm_test_top.e0.sb0 [SCBD] Pattern found to match, next out should be 1
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 3370000: uvm_test_top.e0.sb0 [SCBD] in=1 out=1 ref=0b1011 act=0b111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 3390000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 3410000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 3430000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 3450000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 3470000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 3490000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 3510000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 3530000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 3550000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 3570000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 3590000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1110
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 3610000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 3630000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1011
+UVM_INFO sb/pattern_scoreboard.sv(48) @ 3630000: uvm_test_top.e0.sb0 [SCBD] Pattern found to match, next out should be 1
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 3650000: uvm_test_top.e0.sb0 [SCBD] in=0 out=1 ref=0b1011 act=0b110
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 3670000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 3690000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1011
+UVM_INFO sb/pattern_scoreboard.sv(48) @ 3690000: uvm_test_top.e0.sb0 [SCBD] Pattern found to match, next out should be 1
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 3710000: uvm_test_top.e0.sb0 [SCBD] in=0 out=1 ref=0b1011 act=0b110
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 3730000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 3750000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1011
+UVM_INFO sb/pattern_scoreboard.sv(48) @ 3750000: uvm_test_top.e0.sb0 [SCBD] Pattern found to match, next out should be 1
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 3770000: uvm_test_top.e0.sb0 [SCBD] in=1 out=1 ref=0b1011 act=0b111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 3790000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 3810000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1110
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 3830000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 3850000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1011
+UVM_INFO sb/pattern_scoreboard.sv(48) @ 3850000: uvm_test_top.e0.sb0 [SCBD] Pattern found to match, next out should be 1
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 3870000: uvm_test_top.e0.sb0 [SCBD] in=1 out=1 ref=0b1011 act=0b111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 3890000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 3910000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 3930000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 3950000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 3970000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 3990000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 4010000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 4030000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 4050000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 4070000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 4090000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 4110000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 4130000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 4150000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1110
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 4170000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 4190000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1011
+UVM_INFO sb/pattern_scoreboard.sv(48) @ 4190000: uvm_test_top.e0.sb0 [SCBD] Pattern found to match, next out should be 1
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 4210000: uvm_test_top.e0.sb0 [SCBD] in=1 out=1 ref=0b1011 act=0b111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 4230000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 4250000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 4270000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 4290000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 4310000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 4330000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 4350000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 4370000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 4390000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 4410000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1110
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 4430000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 4450000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1011
+UVM_INFO sb/pattern_scoreboard.sv(48) @ 4450000: uvm_test_top.e0.sb0 [SCBD] Pattern found to match, next out should be 1
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 4470000: uvm_test_top.e0.sb0 [SCBD] in=1 out=1 ref=0b1011 act=0b111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 4490000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1110
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 4510000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 4530000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1010
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 4550000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b100
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 4570000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1001
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 4590000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b11
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 4610000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 4630000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 4650000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 4670000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 4690000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1110
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 4710000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 4730000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1011
+UVM_INFO sb/pattern_scoreboard.sv(48) @ 4730000: uvm_test_top.e0.sb0 [SCBD] Pattern found to match, next out should be 1
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 4750000: uvm_test_top.e0.sb0 [SCBD] in=1 out=1 ref=0b1011 act=0b111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 4770000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 4790000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 4810000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 4830000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 4850000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 4870000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1110
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 4890000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 4910000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1011
+UVM_INFO sb/pattern_scoreboard.sv(48) @ 4910000: uvm_test_top.e0.sb0 [SCBD] Pattern found to match, next out should be 1
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 4930000: uvm_test_top.e0.sb0 [SCBD] in=1 out=1 ref=0b1011 act=0b111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 4950000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 4970000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 4990000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 5010000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1110
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 5030000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 5050000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1011
+UVM_INFO sb/pattern_scoreboard.sv(48) @ 5050000: uvm_test_top.e0.sb0 [SCBD] Pattern found to match, next out should be 1
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 5070000: uvm_test_top.e0.sb0 [SCBD] in=1 out=1 ref=0b1011 act=0b111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 5090000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 5110000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 5130000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1110
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 5150000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 5170000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1011
+UVM_INFO sb/pattern_scoreboard.sv(48) @ 5170000: uvm_test_top.e0.sb0 [SCBD] Pattern found to match, next out should be 1
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 5190000: uvm_test_top.e0.sb0 [SCBD] in=1 out=1 ref=0b1011 act=0b111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 5210000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1110
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 5230000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 5250000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1011
+UVM_INFO sb/pattern_scoreboard.sv(48) @ 5250000: uvm_test_top.e0.sb0 [SCBD] Pattern found to match, next out should be 1
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 5270000: uvm_test_top.e0.sb0 [SCBD] in=1 out=1 ref=0b1011 act=0b111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 5290000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 5310000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 5330000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 5350000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 5370000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 5390000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 5410000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 5430000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 5450000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 5470000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 5490000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1110
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 5510000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 5530000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1011
+UVM_INFO sb/pattern_scoreboard.sv(48) @ 5530000: uvm_test_top.e0.sb0 [SCBD] Pattern found to match, next out should be 1
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 5550000: uvm_test_top.e0.sb0 [SCBD] in=1 out=1 ref=0b1011 act=0b111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 5570000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 5590000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 5610000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 5630000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 5650000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1110
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 5670000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 5690000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1010
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 5710000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 5730000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1010
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 5750000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 5770000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1011
+UVM_INFO sb/pattern_scoreboard.sv(48) @ 5770000: uvm_test_top.e0.sb0 [SCBD] Pattern found to match, next out should be 1
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 5790000: uvm_test_top.e0.sb0 [SCBD] in=1 out=1 ref=0b1011 act=0b111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 5810000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 5830000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 5850000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 5870000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 5890000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1110
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 5910000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 5930000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1011
+UVM_INFO sb/pattern_scoreboard.sv(48) @ 5930000: uvm_test_top.e0.sb0 [SCBD] Pattern found to match, next out should be 1
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 5950000: uvm_test_top.e0.sb0 [SCBD] in=1 out=1 ref=0b1011 act=0b111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 5970000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1110
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 5990000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 6010000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1011
+UVM_INFO sb/pattern_scoreboard.sv(48) @ 6010000: uvm_test_top.e0.sb0 [SCBD] Pattern found to match, next out should be 1
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 6030000: uvm_test_top.e0.sb0 [SCBD] in=0 out=1 ref=0b1011 act=0b110
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 6050000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 6070000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1010
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 6090000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b100
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 6110000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1001
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 6130000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b10
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 6150000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 6170000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1011
+UVM_INFO sb/pattern_scoreboard.sv(48) @ 6170000: uvm_test_top.e0.sb0 [SCBD] Pattern found to match, next out should be 1
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 6190000: uvm_test_top.e0.sb0 [SCBD] in=1 out=1 ref=0b1011 act=0b111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 6210000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 6230000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1110
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 6250000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1100
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 6270000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1001
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 6290000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b11
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 6310000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b110
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 6330000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 6350000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1011
+UVM_INFO sb/pattern_scoreboard.sv(48) @ 6350000: uvm_test_top.e0.sb0 [SCBD] Pattern found to match, next out should be 1
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 6370000: uvm_test_top.e0.sb0 [SCBD] in=1 out=1 ref=0b1011 act=0b111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 6390000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 6410000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 6430000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 6450000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1110
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 6470000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 6490000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1011
+UVM_INFO sb/pattern_scoreboard.sv(48) @ 6490000: uvm_test_top.e0.sb0 [SCBD] Pattern found to match, next out should be 1
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 6510000: uvm_test_top.e0.sb0 [SCBD] in=1 out=1 ref=0b1011 act=0b111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 6530000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1110
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 6550000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 6570000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1010
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 6590000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 6610000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1011
+UVM_INFO sb/pattern_scoreboard.sv(48) @ 6610000: uvm_test_top.e0.sb0 [SCBD] Pattern found to match, next out should be 1
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 6630000: uvm_test_top.e0.sb0 [SCBD] in=1 out=1 ref=0b1011 act=0b111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 6650000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 6670000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 6690000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1110
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 6710000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 6730000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1011
+UVM_INFO sb/pattern_scoreboard.sv(48) @ 6730000: uvm_test_top.e0.sb0 [SCBD] Pattern found to match, next out should be 1
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 6750000: uvm_test_top.e0.sb0 [SCBD] in=1 out=1 ref=0b1011 act=0b111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 6770000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 6790000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 6810000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 6830000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1110
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 6850000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 6870000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1011
+UVM_INFO sb/pattern_scoreboard.sv(48) @ 6870000: uvm_test_top.e0.sb0 [SCBD] Pattern found to match, next out should be 1
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 6890000: uvm_test_top.e0.sb0 [SCBD] in=1 out=1 ref=0b1011 act=0b111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 6910000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 6930000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 6950000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 6970000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 6990000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 7010000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 7030000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1110
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 7050000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 7070000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1011
+UVM_INFO sb/pattern_scoreboard.sv(48) @ 7070000: uvm_test_top.e0.sb0 [SCBD] Pattern found to match, next out should be 1
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 7090000: uvm_test_top.e0.sb0 [SCBD] in=1 out=1 ref=0b1011 act=0b111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 7110000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 7130000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 7150000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 7170000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1110
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 7190000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 7210000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1010
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 7230000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 7250000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1011
+UVM_INFO sb/pattern_scoreboard.sv(48) @ 7250000: uvm_test_top.e0.sb0 [SCBD] Pattern found to match, next out should be 1
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 7270000: uvm_test_top.e0.sb0 [SCBD] in=1 out=1 ref=0b1011 act=0b111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 7290000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 7310000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 7330000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1110
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 7350000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 7370000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1011
+UVM_INFO sb/pattern_scoreboard.sv(48) @ 7370000: uvm_test_top.e0.sb0 [SCBD] Pattern found to match, next out should be 1
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 7390000: uvm_test_top.e0.sb0 [SCBD] in=1 out=1 ref=0b1011 act=0b111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 7410000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 7430000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1110
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 7450000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 7470000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1011
+UVM_INFO sb/pattern_scoreboard.sv(48) @ 7470000: uvm_test_top.e0.sb0 [SCBD] Pattern found to match, next out should be 1
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 7490000: uvm_test_top.e0.sb0 [SCBD] in=1 out=1 ref=0b1011 act=0b111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 7510000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 7530000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 7550000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1110
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 7570000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 7590000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1011
+UVM_INFO sb/pattern_scoreboard.sv(48) @ 7590000: uvm_test_top.e0.sb0 [SCBD] Pattern found to match, next out should be 1
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 7610000: uvm_test_top.e0.sb0 [SCBD] in=0 out=1 ref=0b1011 act=0b110
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 7630000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 7650000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1011
+UVM_INFO sb/pattern_scoreboard.sv(48) @ 7650000: uvm_test_top.e0.sb0 [SCBD] Pattern found to match, next out should be 1
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 7670000: uvm_test_top.e0.sb0 [SCBD] in=1 out=1 ref=0b1011 act=0b111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 7690000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 7710000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1110
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 7730000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 7750000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1011
+UVM_INFO sb/pattern_scoreboard.sv(48) @ 7750000: uvm_test_top.e0.sb0 [SCBD] Pattern found to match, next out should be 1
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 7770000: uvm_test_top.e0.sb0 [SCBD] in=0 out=1 ref=0b1011 act=0b110
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 7790000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 7810000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1011
+UVM_INFO sb/pattern_scoreboard.sv(48) @ 7810000: uvm_test_top.e0.sb0 [SCBD] Pattern found to match, next out should be 1
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 7830000: uvm_test_top.e0.sb0 [SCBD] in=1 out=1 ref=0b1011 act=0b111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 7850000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 7870000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 7890000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 7910000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1110
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 7930000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 7950000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1011
+UVM_INFO sb/pattern_scoreboard.sv(48) @ 7950000: uvm_test_top.e0.sb0 [SCBD] Pattern found to match, next out should be 1
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 7970000: uvm_test_top.e0.sb0 [SCBD] in=1 out=1 ref=0b1011 act=0b111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 7990000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 8010000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 8030000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 8050000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 8070000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1110
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 8090000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 8110000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1011
+UVM_INFO sb/pattern_scoreboard.sv(48) @ 8110000: uvm_test_top.e0.sb0 [SCBD] Pattern found to match, next out should be 1
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 8130000: uvm_test_top.e0.sb0 [SCBD] in=1 out=1 ref=0b1011 act=0b111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 8150000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1110
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 8170000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 8190000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1011
+UVM_INFO sb/pattern_scoreboard.sv(48) @ 8190000: uvm_test_top.e0.sb0 [SCBD] Pattern found to match, next out should be 1
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 8210000: uvm_test_top.e0.sb0 [SCBD] in=1 out=1 ref=0b1011 act=0b111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 8230000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 8250000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 8270000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 8290000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 8310000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 8330000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1110
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 8350000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 8370000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1011
+UVM_INFO sb/pattern_scoreboard.sv(48) @ 8370000: uvm_test_top.e0.sb0 [SCBD] Pattern found to match, next out should be 1
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 8390000: uvm_test_top.e0.sb0 [SCBD] in=1 out=1 ref=0b1011 act=0b111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 8410000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 8430000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1110
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 8450000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 8470000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1010
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 8490000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 8510000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1011
+UVM_INFO sb/pattern_scoreboard.sv(48) @ 8510000: uvm_test_top.e0.sb0 [SCBD] Pattern found to match, next out should be 1
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 8530000: uvm_test_top.e0.sb0 [SCBD] in=0 out=1 ref=0b1011 act=0b110
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 8550000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 8570000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1011
+UVM_INFO sb/pattern_scoreboard.sv(48) @ 8570000: uvm_test_top.e0.sb0 [SCBD] Pattern found to match, next out should be 1
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 8590000: uvm_test_top.e0.sb0 [SCBD] in=1 out=1 ref=0b1011 act=0b111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 8610000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1110
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 8630000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 8650000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1010
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 8670000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 8690000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1011
+UVM_INFO sb/pattern_scoreboard.sv(48) @ 8690000: uvm_test_top.e0.sb0 [SCBD] Pattern found to match, next out should be 1
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 8710000: uvm_test_top.e0.sb0 [SCBD] in=1 out=1 ref=0b1011 act=0b111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 8730000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 8750000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 8770000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 8790000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 8810000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 8830000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 8850000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 8870000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 8890000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1110
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 8910000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 8930000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1010
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 8950000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b100
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 8970000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1000
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 8990000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 9010000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b11
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 9030000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 9050000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 9070000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1110
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 9090000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1101
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 9110000: uvm_test_top.e0.sb0 [SCBD] in=0 out=0 ref=0b1011 act=0b1010
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 9130000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b101
+UVM_INFO seq/pattern_sequence.sv(22) @ 9130000: uvm_test_top.e0.a0.s0@@seq [SEQ] Done generation of 442 items
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 9150000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1011
+UVM_INFO sb/pattern_scoreboard.sv(48) @ 9150000: uvm_test_top.e0.sb0 [SCBD] Pattern found to match, next out should be 1
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 9170000: uvm_test_top.e0.sb0 [SCBD] in=1 out=1 ref=0b1011 act=0b111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 9190000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 9210000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 9230000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 9250000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 9270000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 9290000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 9310000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO /proj/xbuilds/SWIP/2021.1_0402_2220/installs/lin64/Vivado/2021.1/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(19968) @ 9330000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO sb/pattern_scoreboard.sv(31) @ 9330000: uvm_test_top.e0.sb0 [SCBD] in=1 out=0 ref=0b1011 act=0b1111
+UVM_INFO /proj/xbuilds/SWIP/2021.1_0402_2220/installs/lin64/Vivado/2021.1/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv(13673) @ 9330000: reporter [UVM/REPORT/SERVER] [UVM/RELNOTES]     1
+[UVM/COMP/NAMECHECK]     1
+[TPRGED]     7
+[TEST_DONE]     1
+[SEQ]     1
+[SCBD]   514
+[RNTST]     1
+[NO_DPI_TSTNAME]     1
+** Report counts by id
+UVM_FATAL :    0
+UVM_ERROR :    0
+UVM_WARNING :    7
+UVM_INFO :  520
+** Report counts by severity
+
+--- UVM Report Summary ---
+
+
+$finish called at time : 9330 ns : File "/home/imocanu/Public/Vivado/Vivado/2021.1/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv" Line 18699
+exit
+INFO: [Common 17-206] Exiting xsim at Sun Jan  2 15:27:09 2022...

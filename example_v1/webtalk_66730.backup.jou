@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:07 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sun Jan  2 21:56:47 2022
+# Process ID: 66730
+# Current directory: /home/imocanu/Public/PycharmProjects/axi4-cores/uvm_4_dv/example_v1
+# Command line: wbtcv -mode batch -source /home/imocanu/Public/PycharmProjects/axi4-cores/uvm_4_dv/example_v1/xsim.dir/top_sim/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /home/imocanu/Public/PycharmProjects/axi4-cores/uvm_4_dv/example_v1/webtalk.log
+# Journal file: /home/imocanu/Public/PycharmProjects/axi4-cores/uvm_4_dv/example_v1/webtalk.jou
+#-----------------------------------------------------------
+source /home/imocanu/Public/PycharmProjects/axi4-cores/uvm_4_dv/example_v1/xsim.dir/top_sim/webtalk/xsim_webtalk.tcl -notrace

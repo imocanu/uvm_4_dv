@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/imocanu/Public/PycharmProjects/axi4-cores/uvm_4_dv/example_v1/simplealu_pkg.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/imocanu/Public/PycharmProjects/axi4-cores/uvm_4_dv/example_v1/alu_if.sv" into library work
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/imocanu/Public/PycharmProjects/axi4-cores/uvm_4_dv/example_v1/simplealu.sv" into library work
+INFO: [VRFC 10-311] analyzing module simplealu
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/imocanu/Public/PycharmProjects/axi4-cores/uvm_4_dv/example_v1/top.sv" into library work
+INFO: [VRFC 10-311] analyzing module top

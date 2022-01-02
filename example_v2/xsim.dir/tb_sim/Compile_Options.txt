@@ -1,0 +1,1 @@
+"work.tb" -s "tb_sim" -L "uvm" -timescale "1ns/1ps" -debug "all" 

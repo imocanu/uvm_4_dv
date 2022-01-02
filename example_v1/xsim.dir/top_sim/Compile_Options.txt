@@ -1,0 +1,1 @@
+"work.top" -s "top_sim" -L "uvm" -timescale "1ns/1ps" -debug "all" 

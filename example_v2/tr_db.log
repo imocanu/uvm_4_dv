@@ -1,0 +1,1 @@
+  CREATE_STREAM @290000 {NAME:seq T:Transactions SCOPE:uvm_test_top.e0.a0.s0 STREAM:711}

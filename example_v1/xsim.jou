@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# xsim v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:07 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sun Jan  2 21:56:48 2022
+# Process ID: 66776
+# Current directory: /home/imocanu/Public/PycharmProjects/axi4-cores/uvm_4_dv/example_v1
+# Command line: xsim -log session.log -mode tcl -source {xsim.dir/top_sim/xsim_script.tcl}
+# Log file: /home/imocanu/Public/PycharmProjects/axi4-cores/uvm_4_dv/example_v1/session.log
+# Journal file: /home/imocanu/Public/PycharmProjects/axi4-cores/uvm_4_dv/example_v1/xsim.jou
+#-----------------------------------------------------------
+source xsim.dir/top_sim/xsim_script.tcl
+run -all

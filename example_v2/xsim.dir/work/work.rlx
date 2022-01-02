@@ -1,0 +1,18 @@
+0.7
+2020.2
+Jun 10 2021
+19:45:28
+/home/imocanu/Public/PycharmProjects/axi4-cores/uvm_4_dv/example_v2/agent/pattern_agent.sv,1641128059,verilog,,,,,,,,,,,,
+/home/imocanu/Public/PycharmProjects/axi4-cores/uvm_4_dv/example_v2/agent/pattern_driver.sv,1641128065,verilog,,,,,,,,,,,,
+/home/imocanu/Public/PycharmProjects/axi4-cores/uvm_4_dv/example_v2/agent/pattern_monitor.sv,1641128070,verilog,,,,,,,,,,,,
+/home/imocanu/Public/PycharmProjects/axi4-cores/uvm_4_dv/example_v2/env/pattern_env.sv,1641127898,verilog,,,,,,,,,,,,
+/home/imocanu/Public/PycharmProjects/axi4-cores/uvm_4_dv/example_v2/interface/des_if.sv,1641127742,systemVerilog,/home/imocanu/Public/PycharmProjects/axi4-cores/uvm_4_dv/example_v2/rtl/det_1011.sv;/home/imocanu/Public/PycharmProjects/axi4-cores/uvm_4_dv/example_v2/tb/tb.sv,/home/imocanu/Public/PycharmProjects/axi4-cores/uvm_4_dv/example_v2/pattern_list.svh,,$unit_des_if_sv;des_if,,uvm,.,,,,,
+/home/imocanu/Public/PycharmProjects/axi4-cores/uvm_4_dv/example_v2/pattern_list.svh,1641129295,systemVerilog,,/home/imocanu/Public/PycharmProjects/axi4-cores/uvm_4_dv/example_v2/rtl/det_1011.sv,/home/imocanu/Public/Vivado/Vivado/2021.1/data/xsim/system_verilog/uvm_include/uvm_macros.svh;/home/imocanu/Public/PycharmProjects/axi4-cores/uvm_4_dv/example_v2/seq/pattern_seq_item.sv;/home/imocanu/Public/PycharmProjects/axi4-cores/uvm_4_dv/example_v2/seq/pattern_sequence.sv;/home/imocanu/Public/PycharmProjects/axi4-cores/uvm_4_dv/example_v2/agent/pattern_driver.sv;/home/imocanu/Public/PycharmProjects/axi4-cores/uvm_4_dv/example_v2/agent/pattern_monitor.sv;/home/imocanu/Public/PycharmProjects/axi4-cores/uvm_4_dv/example_v2/agent/pattern_agent.sv;/home/imocanu/Public/PycharmProjects/axi4-cores/uvm_4_dv/example_v2/sb/pattern_scoreboard.sv;/home/imocanu/Public/PycharmProjects/axi4-cores/uvm_4_dv/example_v2/env/pattern_env.sv,,,uvm,.,,,,,
+/home/imocanu/Public/PycharmProjects/axi4-cores/uvm_4_dv/example_v2/rtl/det_1011.sv,1641126175,systemVerilog,,/home/imocanu/Public/PycharmProjects/axi4-cores/uvm_4_dv/example_v2/tests/pattern_base_test.sv,,det_1011,,uvm,.,,,,,
+/home/imocanu/Public/PycharmProjects/axi4-cores/uvm_4_dv/example_v2/sb/pattern_scoreboard.sv,1641127926,verilog,,,,,,,,,,,,
+/home/imocanu/Public/PycharmProjects/axi4-cores/uvm_4_dv/example_v2/seq/pattern_seq_item.sv,1641129964,verilog,,,,,,,,,,,,
+/home/imocanu/Public/PycharmProjects/axi4-cores/uvm_4_dv/example_v2/seq/pattern_sequence.sv,1641128113,verilog,,,,,,,,,,,,
+/home/imocanu/Public/PycharmProjects/axi4-cores/uvm_4_dv/example_v2/tb/tb.sv,1641129328,systemVerilog,,,/home/imocanu/Public/PycharmProjects/axi4-cores/uvm_4_dv/example_v2/pattern_list.svh,tb,,uvm,.,,,,,
+/home/imocanu/Public/PycharmProjects/axi4-cores/uvm_4_dv/example_v2/tests/pattern_base_test.sv,1641127779,systemVerilog,,/home/imocanu/Public/PycharmProjects/axi4-cores/uvm_4_dv/example_v2/tests/test_1011.sv,,,,uvm,.,,,,,
+/home/imocanu/Public/PycharmProjects/axi4-cores/uvm_4_dv/example_v2/tests/test_1011.sv,1641127787,systemVerilog,,/home/imocanu/Public/PycharmProjects/axi4-cores/uvm_4_dv/example_v2/tb/tb.sv,,,,uvm,.,,,,,
+/home/imocanu/Public/Vivado/Vivado/2021.1/data/xsim/system_verilog/uvm_include/uvm_macros.svh,1623376426,verilog,,,,,,,,,,,,

@@ -1,0 +1,20 @@
+Vivado Simulator v2021.1
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: /home/imocanu/Public/Vivado/Vivado/2021.1/bin/unwrapped/lnx64.o/xelab work.tb -s tb_sim -L uvm -timescale 1ns/1ps -debug all 
+Multi-threading is on. Using 6 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3597] non-void function 'write' called as a task without void casting [/proj/xbuilds/SWIP/2021.1_0402_2220/installs/lin64/Vivado/2021.1/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv:22202]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4468] File : /proj/xbuilds/SWIP/2021.1_0402_2220/installs/lin64/Vivado/2021.1/data/system_verilog/uvm_1.2/xlnx_uvm_package.sv, Line : 25994, RANDC variable size more than 8 bits. This will be treated as a RAND variable instead.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package work.$unit_des_if_sv
+Compiling package uvm.uvm_pkg
+Compiling package std.std
+Compiling module work.cb
+Compiling module work.des_if
+Compiling module work.det_1011
+Compiling module work.tb
+Built simulation snapshot tb_sim
